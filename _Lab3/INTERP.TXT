@@ -1,0 +1,162 @@
+Функции и интервалы по вариантам:
+
+
+         1:  [-0,25;1] - Интервал
+              R1 := Exp((Degree(x,4)+Degree(x,2)-x+Sqrt(5))/5);
+              R2 := Soh((Degree(x,3)+21*x+9)/(21*x+6));
+              VarF := R1+R2-3.0;
+
+         2:  [-1,1] - Интервал
+              R1 := Cos(Degree(x,5)-x+3+Degree(2,1/3));
+              R2 := ArcTan((degree(x,3)-5*Sqrt(2)*x-4)/(Sqrt(6)*x+Sqrt(3)));
+              VarF := R1+R2+1.8;
+
+         3:  [-1,1] - Интервал
+              R1 := Sin((Degree(x,2)*5+x-4)/5);
+              R2 := Coh((degree(x,3)+3*Degree(x,2)+5*x+8)/(3*x+9));
+              VarF := R1+R2-1.0;
+
+         4: [-1,1] - Интервал
+              R1 := Th(Degree(x,2)*5+x*3-2);
+              R2 := Exp((degree(x,3)+6*Degree(x,2)+12*x+8)/(2*Degree(x,2)+8*x+7));
+              VarF := R1+R2-2.0;
+
+         5: [-1,1] - Интервал
+              R1 := Degree(4*Degree(x,3)+2*Degree(x,2)-4*x+2,Sqrt(2));
+              R2 := ArcSin(1/(-degree(x,2)+x+5));
+              VarF := R1+R2-5.0;
+
+         6: [-0,65;1] - Интервал
+              R1 := Coh((3*Degree(x,3)+2*Degree(x,2)-4*x+5)/3);
+              R2 := Th((Degree(x,3)-3*Sqrt(2)*x-2)/(2*x+Sqrt(2)));
+              VarF := R1+R2-2.5;
+
+         7: [0,7;2] - Интервал
+              R1 := ArcTan(Degree(x,3)-5*x+1);
+              R2 := Degree(Degree(x,2)/(3*x-2),Sqrt(3));
+              VarF := R1+R2;
+
+         8: [-0,25;1] - Интервал
+              R1 := Arcsin((35*Degree(x,2)-30*x+9)/20);
+              R2 := Cos((10*Degree(x,3)+185*Degree(x,2)+340*x+103)/
+                        (50*Degree(x,2)+100*x+30));
+              VarF := R1+R2+0.5;
+
+         9: [-1,1] - Интервал
+              R1 := Tan((Degree(x,4)+2*Degree(x,2)-2*x+Sqrt(2)+1)/8);
+              R2 := Sin((4*Degree(x,3)-7*x-9)/(20*x+28));
+              VarF := R1+R2;
+
+        10: [-1,1] - Интервал
+              R1 := Sin((Degree(x,4)+Degree(x,3)-3*x+3-Degree(30,1/3))/2);
+              R2 := Th((4*Sqrt(3)*Degree(x,3)-2*x-6*Sqrt(2)+1)/
+                       (-2*Sqrt(3)*Degree(x,3)+x+3*Sqrt(2)));
+              VarF := R1+R2+1.2;
+
+        11: [-1,0] - Интервал
+              R1 := Tan((2*Degree(x,4)-5*x+6)/8);
+              R2 := ArcTan((7*Degree(x,2)-11*x+1-Sqrt(2))/
+                           (-7*Degree(x,2)+11*x+Sqrt(2)));
+              VarF := R1+R2;
+
+        12: [-1,1] - Интервал
+              R1 := Exp((Degree(x,4)+2*Degree(x,3)-5*x+6)/5);
+              R2 := Coh(1/(-15*Degree(x,3)+10*x+5*Sqrt(10)));
+              VarF := R1+R2-3;
+
+        13: [-1,1] - Интервал
+              R1 := Sin((2*Degree(x,2)-x+2*Degree(7,1/3)-5)/2);
+              R2 := Exp((Degree(x,2)+2*x+1)/(7*x+1));
+              VarF := R1+R2-1.5;
+
+        14: [0,1] - Интервал
+              R1 := Cos((2*Degree(x,3)-3*x+3+3*Sqrt(10))/3);
+              R2 := ArcSin((Degree(x,3)+2*x+1)/(3*x+1));
+              VarF := R1+R2-0.5;
+
+        15: [-1,1] - Интервал
+              R1 := Soh((3*Degree(x,4)-x+Sqrt(17)-3)/2);
+              R2 := Degree(5,1/3);
+              R2 := Sin((R2*Degree(x,3)-R2*x+1-2*R2)/(-Degree(x,3)+x+2));
+              VarF := R1+R2;
+
+        16: [-1,0] - Интервал
+              R1 := Ln(2*Degree(x,5)-7*x+Sqrt(11));
+              R2 := Sqrt(2);
+              R2 := Soh((-4*Degree(x,2)-4*x+3-4*R2)/(3*Degree(x,2)+3*x+3*R2));
+              VarF := R1+R2-1.0;
+
+        17: [-1,1] - Интервал
+              R1 := Cos((3*Degree(x,5)-10*x+Degree(10,1/3)-2-10*Sqrt(2))/10);
+              R2 := Sqrt(5);
+              R2 := ArcTan((10*Degree(x,5)-10*R2*Degree(x,4)+10*Degree(x,3)+
+                            3*Degree(x,2)-3*R2*x+1)/(2*Degree(x,2)-2*R2*x+2));
+              VarF := R1+R2;
+
+        18: [-1,0] - Интервал
+              R1 := Sin((-Degree(x,4)-4*Degree(x,3)-8*Degree(x,2)-7*x+1)/Sqrt(11));
+              R2 := Sqrt(10);
+              R2 := Ln((4*Degree(x,5)-4*R2*Degree(x,4)+8*Degree(x,3)+
+                        5*Degree(x,2)-5*R2*x+9)/(Degree(x,2)-R2*x+2))/Ln(10);
+              VarF := R1+R2-1.0;
+
+        19: [-1,1] - Интервал
+              R1 := Tan((-3*Degree(x,2)-Degree(5,1/3)*x+3+Ln(2))/Sqrt(19));
+              R2 := Sqrt(2); R3 := Sqrt(3);
+              R2 := Ln((-R2*Degree(x,4)-R2*R3*Degree(x,3)+4*x+4*R3-1)/(x+R3));
+              VarF := R1+R2-2.2;
+
+        20: [-1,1] - Интервал
+              R1 := Soh((Sqrt(13)*Degree(x,3)-9*x-5-Sqrt(17))/10);
+              R2 := Tan((Degree(x,2)+x+Degree(2,1/3))/(3*x-5));
+              VarF := R1+R2+0.6;
+        21: [-1,0]
+              R1 := Degree((Sqrt(3)*Degree(x,3)-2*x+5)/(7+Sqrt(7)),Ln(3)/Ln(10));
+              R2 := ArcSin((Degree(x,2)+x+Sqrt(3))/(2*x-2));
+              VarF := R1+R2;
+        22: [0,1] - Интервал
+              R1 := Ln((-Sqrt(3)*Degree(x,4)-Degree(x,2)+5*x+1))/Ln(10);
+              R2 := Th((-Degree(x,5)-2*Degree(x,4)-Degree(x,3)+
+                        3*Degree(x,2)+6*x+3-Sqrt(5))/(Degree(x,2)+2*x+1));
+              VarF := R1+R2-1.0;
+        23: [-1,0] - Интервал
+              R1 := Soh((-2*Degree(x,2)-Sqrt(10)*x+1)/4);
+              R2 := Sqrt(7); R3 := Sqrt(5);
+              R2 := Degree((Degree(x,2)+(Sqrt(2)+R2)*x+1-R3)/
+                        (R2*x-R3),Ln(2));
+              VarF := R1+R2-1.2;
+        24: [-1,0] - Интервал
+              R1 := Tan((3*Degree(x,5)-14*x+Degree(3,1/3)-16)/20);
+              R2 := Sin(1/(2*Degree(x,2)+x+Sqrt(5)));
+              VarF := R1+R2;
+        25: [1,2]  - Интервал
+              R1 := ArcSin((-Sqrt(2)*Degree(x,2)+5*x+Sqrt(7)-15)/10);
+              R2 := Cos((-Degree(x,3)+Degree(x,2)+x-2)/(x+1));
+              VarF := R1+R2+0.5;
+        26: [-1,1]  - Интервал
+              R1 := Sin((-Sqrt(11)*Degree(x,4)-Degree(x,2)+10*x+3-Sqrt(7))/10);
+              R2 := Degree(5,1/3);
+              R2 := Th((-Degree(x,4)-R2*Degree(x,3)+3*x+3*R2-2)/(2*x+2*R2));
+              VarF := R1+R2-1.0;
+        27: [-1,1]  - Интервал
+              R2 := Sqrt(5);  R3:=Sqrt(10);
+              R1 := Tan((R2*Degree(x,3)-3*R2*Degree(x,2)+(3*R2-6)*x-4-R2)/16);
+              R2 := ArcTan((-R2*Degree(x,4)-5*Sqrt(2)*Degree(x,3)+4*x+4*R3-2)/(x+R3));
+              VarF := R1+R2-0.5;
+        28:  [0,1]  - Интервал
+              R1 := Ln(-Degree(x,4)-Degree(x,2)+Sqrt(30)*x+1);
+              R2 := Degree(3,1/3);
+              R2 := Ln((-Degree(x,4)-R2*Degree(x,3)+5*x+5*R2-3)/(x+R2))/Ln(10);
+              VarF := R1+R2-0.6;
+        29:  [0,1]  - Интервал
+              R1 := Sin((-2*Degree(x,2)+3*x+Degree(3,1/3))/2);
+              R2 := Ln((-Degree(x,4)-Degree(x,3)+5*x+4)/(x+1));
+              VarF := R1+R2-2.1;
+        30:  [-1,0] - Интервал
+              R2 := Sqrt(2);
+              R1 := ArcSin((Degree(x,5)-Degree(100,1/3)*x+R2-7)/7);
+              R2 := Cos((4*Degree(x,5)-5*Sqrt(5)*Degree(x,4)+5*Degree(x,3)-1)/
+                    (3*Degree(x,2)-15*x+3*R2));
+              VarF := R1+R2-0.5;
+
+
